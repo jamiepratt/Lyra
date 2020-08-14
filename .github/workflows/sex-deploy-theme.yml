@@ -2,7 +2,7 @@ name: Deploy Theme
 on:
   push:	
     branches:	
-      - jamiep_org
+      - sex
 jobs:
   deploy:
     runs-on: ubuntu-18.04
@@ -10,5 +10,5 @@ jobs:
       - uses: actions/checkout@v2
       - uses: TryGhost/action-deploy-theme@v1.4.0
         with:
-          api-url: ${{ secrets.JAMIEP_ORG_ADMIN_API_URL }}
-          api-key: ${{ secrets.JAMIEP_ORG_ADMIN_API_KEY }}
+          api-url: ${{ secrets.SEX_ADMIN_API_URL }}
+          api-key: ${{ secrets.SEX_ADMIN_API_KEY }}
