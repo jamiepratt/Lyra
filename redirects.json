@@ -1,12 +1,12 @@
 [
-{
-  "from": "/james-robert-pratt/" ,
-  "to":  "/work/james-robert-pratt/",
-  "permanent": true
-},
-{
-  "from": "/societal-brain-diabetes/",
-  "to": "/ideas/societal-brain-diabetes/",
-  "permanent": true
-}
+  {
+    "from": "^\/james-robert-pratt((\/?).*$)" ,
+    "to":  "/work/james-robert-pratt$1",
+    "permanent": false
+  },
+  {
+    "from": "^\/societal-brain-diabetes((\/?).*$)",
+    "to": "/ideas/societal-brain-diabetes$1",
+    "permanent": false
+  }
 ]
